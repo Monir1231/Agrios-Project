@@ -22,7 +22,7 @@ body{
 
 header{
     background-color: rgba(0,0,0,.2);
-    padding: 0.5rem 4rem;
+    padding: 0rem 2rem;
     position: fixed;
     width: 100%;
     top: 0;
@@ -111,3 +111,222 @@ nav{
     background: url(images/hero.png) no-repeat center center/cover;
     position: relative;
 }
+
+
+.hero ::before{
+
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,.3);
+}
+
+
+ /* Organic section  */
+
+ .organic{
+    margin-top: 120px;
+    padding: 0 30px;
+    display: flex;
+ }
+
+ .oraganic-content{
+    margin-left: 24px;
+    margin-right: 20px;
+ }
+
+ .oraganic-content h2{
+    font-size: 50px;
+    font-weight: 600;
+    color: #04000B;
+    margin: 20px 0;
+ }
+
+ .oraganic-content p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #666666;
+    line-height: 20px;
+    
+ }
+
+
+ .oraganic-link-main{
+    margin-top: 25px;
+
+ }
+ .oraganic-link{
+    gap: 6px;
+    display: flex;
+    align-items: center;
+    margin: 12px 0;
+ }
+
+ .oraganic-link a{
+    color: #49A760;
+    font-size: 16px;
+ }
+
+  .oraganic-link p{
+    font-size: 16px;
+    color: #04000B;
+
+ }
+
+
+ .araganic-btn{
+    margin-top: 20px;
+  
+ }
+
+ .araganic-btn button{
+    border: none;
+    padding: 15px 35px;
+    background-color: #F7C35F;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+ }
+
+ .all-fruits{
+    width: 300px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 30px;
+   
+    margin-top: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   
+    
+   
+ } 
+
+ .fruits-img{
+  
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    gap: 20px;
+    
+ }
+
+ .fruits-img img{
+  width: 60px;
+
+ }
+
+
+ .fruits-img  h4{
+    font-size: 20px;
+    font-weight: 400;
+    color: #04000B;
+
+ }
+
+
+ /* Growing part */
+
+ .growing{
+    margin-top: 4rem;
+   display: flex;
+   width: 100%;
+ }
+
+.grow-content-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    padding: 3rem 4rem;
+ 
+    background-color: #4BAF47;
+}
+
+.grow-content{
+    display: flex;
+    width: 550px;
+    justify-content: right;
+    gap: 15px;
+    margin: 30px;
+    color: white;
+}
+
+.video-section{
+    padding-top: 10px;
+    margin-left: 60px;
+    /* margin-right: 10px; */
+    display: flex;
+}
+
+.video-content p{
+color: #49A760;
+font-size: 24px;
+width: 400;
+margin: 10px 0;
+}
+
+.video-content h2{
+    font-size: 50px;
+    color: #04000B;
+}
+
+.start-video{
+    display: flex;
+    gap: 40px;
+}
+
+.start-video-content{
+    margin-top: 30px;
+}
+
+.start{
+    margin: 30px 0;
+}
+.start h1{
+  font-size: 60px;
+  color: #F7C35F;
+}
+
+.start span{
+ font-size: 16px;
+ font-weight: 500;
+ color: #04000B;
+}
+
+.video {
+    margin-top: 80px;
+    position: relative;
+   
+}
+
+.video img{
+    width: 260px;
+  
+   
+}
+
+.video-icon{
+    display: flex;
+    justify-content: center;
+}
+
+.play-icon{
+    position: absolute;
+    top: 34%;
+    left: 44%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 40px;
+   color: #F7C35F;
+  
+
+}
+
