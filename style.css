@@ -517,16 +517,16 @@ margin: 10px 0;
     width: 100%;
     display: flex;
     justify-content: center;
-    padding: 5rem;
+    padding: 2rem;
     background-color:#E9F1EE ;
     gap: 60px;
 }
 
 .faq-main{
-    width: 80%;
+    /* width: 80%; */
     display: flex;
     justify-content: center;
-    /* padding: 5rem; */
+    padding: 5rem;
     /* background-color:#E9F1EE ; */
     gap: 100px;
 }
@@ -577,6 +577,7 @@ margin: 10px 0;
 .faq-question span{
     font-size: 18px;
     font-weight: 500;
+    padding: 15px 0;
 }
 
 .faq-question i{
@@ -684,4 +685,85 @@ margin: 10px 0;
 .overly-content h3{
     font-size: 28px;
     font-weight: 500;
+}
+
+/* fruits part */
+
+.fruts{
+    width: 100%;
+    /* padding: 40px 0; */
+    display: flex;
+    background-color: #E9F1EE;
+}
+
+.fruts-main{
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.fruits-content{
+    width: 50%;
+    padding: 40px;
+    background-color: #49A760;
+    border-radius: 15px;
+    color: white;
+}
+
+.fruits-content h2{
+    font-size: 50px;
+    font-weight: 600;
+    color: #FFFFFF;
+    margin: 40px 0;
+}
+
+.fruits-content p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+
+.fruits-content h6{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    border-bottom: 1px solid white ;
+    padding-bottom: 5PX;
+    border-width: 2px;
+    cursor: pointer;
+     
+}
+
+.all-fruits-main{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+}
+
+
+
+.fruits-img-main img{
+  width:80%;
+  height: 80%;
+} 
+
+
+
+.fruits-logo-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin-top: 30px;
+}
+
+.fruits-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
